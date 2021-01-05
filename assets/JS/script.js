@@ -41,14 +41,3 @@ for (let item of items) {
       item.addEventListener("keypress", toggleItem, false);
     }   
 }
-/* Close Submenu From Anywhere */
-function closeSubmenu(e) {
-    let isClickInside = menu.contains(e.target);
-   
-    if (!isClickInside && menu.querySelector(".submenu-active")) {
-      menu.querySelector(".submenu-active").classList.remove("submenu-active");
-    }
-  }
-   
-  /* Event listener */
-  document.addEventListener("click", closeSubmenu, false);

@@ -3,7 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    overflow: hidden;
+overflow-x: hidden;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -22,13 +22,10 @@ a {
 .menu {   
     list-style-type: none;
 }
-.logo {
-    font-size: 20px;
-    padding: 7.5px 10px 7.5px 0;
-}
+
 .logo img{
-    height: 40px;
-    width: 80px;
+    
+    height: 80px;
 }
 .item {
     padding: 10px;
@@ -104,6 +101,11 @@ a {
     .button.secondary {
         border: 0;
     }
+    .button.secondary2 a {
+        background: #0770dd;
+        border: 1px #1e4355 solid; 
+        border-radius: 20px; 
+    }
     .button.secondary a {
         background: #fdae07;
         border: 1px #1e4355 solid; 
@@ -163,7 +165,7 @@ a {
 /* second navigation*/
 #nav2 {
     width: 100%;
-    height:  20px;
+   
     background: white;
     text-align: justify;
     margin: 1em 0 1em 0;
