@@ -1,0 +1,218 @@
+body {
+	color: rgba(255, 255, 255, 0.664);
+	background-color: #1e4355;
+}
+/* Basic styling */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+  }
+  body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+  }
+  
+  .login_link{
+	  color: #fff;
+  }
+  nav {
+	background: #1e4355;
+	padding: 0 10px;
+  }
+  a {
+	color: white;
+	text-decoration: none;
+  }
+  .menu {
+	list-style-type: none;
+  }
+  
+  .logo img {
+	height: 70px;
+  }
+  .item {
+	padding: 10px;
+  }
+  .item.button {
+	padding: 9px 5px;
+  }
+  .item:not(.button) a:hover,
+  .item a:hover::after {
+	color: #ccc;
+  }
+  /* Mobile menu */
+  .menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+  }
+  .menu li a {
+	display: block;
+	padding: 15px 5px;
+  }
+  .menu li.subitem a {
+	padding: 15px;
+  }
+  .toggle {
+	order: 1;
+	font-size: 20px;
+  }
+  .item.button {
+	order: 2;
+  }
+  .item {
+	order: 3;
+	width: 100%;
+	text-align: center;
+	display: none;
+  }
+  .active .item {
+	display: block;
+  }
+  .button.secondary {
+	/* divider between buttons and menu links */
+	border-bottom: 1px #444 solid;
+  }
+  
+  /* Tablet menu */
+  @media all and (min-width: 700px) {
+	.menu {
+	  justify-content: center;
+	}
+	.logo {
+	  flex: 1;
+	}
+	.item.button {
+	  width: auto;
+	  order: 1;
+	  display: block;
+	}
+	.toggle {
+	  flex: 1;
+	  text-align: right;
+	  order: 2;
+	}
+	/* Button up from tablet screen */
+	
+  /* Desktop menu */
+  @media all and (min-width: 960px) {
+	
+  
+
+
+.form-control {
+	min-height: 41px;
+	 
+	box-shadow: none !important;
+	border: transparent;
+}
+.form-control:focus {
+	background: #e2e2e2;
+}
+.form-control, .btn {        
+	border-radius: 2px;
+}
+.login-form {
+	width: 350px;
+	margin: 10px auto;
+	text-align: center;
+	border: 1px solid #000;
+}
+.login-form h2 {
+	margin: 10px 0 25px;
+}
+.login-form form {
+	color: #000000;
+	border-radius: 3px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.login-form #bt1 {        
+	font-size: 16px;
+	font-weight: bold;
+	background: #3598dc;
+	border: none;
+	outline: none !important;
+}
+.login-form img{
+	height: 20px;
+	width: 20px;
+	float: left;
+}
+
+
+.form-group input{
+	
+	
+	background-image: url(/assets/images/iconfinder_Tilda_Icons_1ed_mail_3586360.png);
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	background-position: left center;
+ }
+
+ 
+
+.login-form #bt2 {        
+	font-size: 16px;
+	font-weight: bold;
+	background: #ffffff;
+	color: #000;
+	border: 1px solid #000;
+	outline: none !important;
+}
+
+.login-form .btn:hover, .login-form .btn:focus {
+	background: #2389cd;
+}
+.login-form a {
+	color: #fff;
+	text-decoration: underline;
+}
+.login-form a:hover {
+	text-decoration: none;
+}
+.login-form form a {
+	color: #000000;
+	text-decoration: none;
+}
+.login-form form a:hover {
+	text-decoration: underline;
+}
+.hrline h4{
+	
+	display: flex; 
+	flex-direction: row;
+			
+}
+.hrline h2{ 
+		 background: #fff;
+      padding: 0 20px;
+      margin-top:-100px;
+       display: inline-block;
+       z-index: 5; 
+	 }
+	.hrline h4:before, 
+	h4:after { 
+		content: ""; 
+		flex: 1 1; 
+		border-bottom: 2px solid #000; 
+		margin: auto;
+
+	 }
+
+footer{
+	background:  #1e4355;
+	color: #fff;
+}
+
+.fab{
+	color: #000;
+}
+
+.
